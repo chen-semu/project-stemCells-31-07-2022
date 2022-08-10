@@ -2,8 +2,32 @@
     overflow: hidden;
     display: flex;
     animation: glry 30s infinite;
+    /* display:; */
   }
-  @keyframes glry {
+  #map{
+    width: 80vw;
+    height: 80vh;
+  }
+  /* #catch_amino{
+    display:none
+  } */
+  #chart{
+    width: 80vw;
+    height: 80vh;
+  }
+  #logo{
+    height: 10vh;
+  }
+  #second_main{
+    display: none;
+  }
+  #my_chart{
+    width: 100vw;
+  }
+  #user_btn{
+    display: none;
+  }
+  /* @keyframes glry {
     0% {
       background-image: url(pics/Home-Page-img1.png);
     }
@@ -31,4 +55,4 @@
     100% {
       background-image: url(pics/Stem-Cells3.png);
     }
-  }
+  } */

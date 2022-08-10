@@ -74,21 +74,19 @@
          <button type="button" class="btn btn-outline-dark btn-floating mx-1">
            Login</button></a>
        <a href="#">
-         <button type="button" class="btn btn-outline-dark btn-floating mx-1">
-           Register</button></a>
      </div>
      <form>
        <!-- first + last names inputs -->
        <div class="row mb-4">
          <div class="col">
            <div class="form-outline">
-             <input type="text" class="form-control" />
+             <input type="text" class="form-control" required/>
              <label class="form-label" >Full name</label>
            </div>
          </div>
           <!-- Email input -->
        <div class="form-outline mb-4">
-         <input type="email" class="form-control" />
+         <input id="inputEmail" type="email" class="form-control" required/>
          <label class="form-label" >Email address</label>
        </div>
           <!-- Password input -->
@@ -105,26 +103,6 @@
        </div>
           <!-- Submit button -->
        <button type="submit" class="btn btn-outline-dark btn-block mb-4 button_text">Sign up</button>
-        
-          <!-- Register buttons -->
-       <div class="text-center button_text">
-         <p>or sign up with:</p>
-         <button type="button" class="btn btn-outline-dark btn-floating mx-1 rounded-circle">
-           <i class="bi bi-meta"></i>
-         </button>
-        
-         <button type="button" class="btn btn-outline-dark btn-floating mx-1 rounded-circle">
-           <i class="bi bi-google"></i>
-         </button>
-        
-         <button type="button" class="btn btn-outline-dark btn-floating mx-1 rounded-circle">
-           <i class="bi bi-twitter"></i>
-         </button>
-        
-         <button type="button" class="btn btn-outline-dark btn-floating mx-1 rounded-circle">
-           <i class="bi bi-github"></i>
-         </button>
-       </div>
        <div class="d-flex justify-content-center text-center mb-5 button_text mt-5 pt-5">
          <a href="../index.html">
            <button type="button" class="btn btn-outline-dark btn-floating mx-1 rounded-pill">
