@@ -1,0 +1,14 @@
+@media screen and (min-width:580px) {
+    #teamPic{
+        height: 900vh;
+        width: 900vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    #teamPic{
+        height: 9vh;
+        width: 9vw;
+
+    }
+  }
