@@ -30,6 +30,12 @@
   #user_btn{
     display: none;
   }
+  .caroselanavbar{
+    height: 90vh !important;
+  }
+  #logo-btm{
+    width: 45vw;
+  }
   /* @keyframes glry {
     0% {
       background-image: url(pics/Home-Page-img1.png);

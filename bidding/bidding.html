@@ -1,23 +1,23 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
-    />
-    <link rel="stylesheet" href="about.css" />
-    <title>Enhance</title>
-  </head>
-  <body>
+    href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+    crossorigin="anonymous"
+  />
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.3/font/bootstrap-icons.css"
+  />
+  <link rel="stylesheet" href="bidding.css" />
+    <title>Document</title>
+</head>
+<body>
     <nav
       class="navbar navbar-expand-sm navbar-light bg-primary fixed-top header_for_devices_web"
     >
@@ -53,37 +53,12 @@
         </ul>
       </div>
     </nav>
-    <div>
-      <img id="teamPic" src="../pics/dna1.png" class="p-0" alt="" />
-    </div>
-    <main class="container my-5 pb-5">
-      <div class="container mt-5 pt-5">
-        <h1 class="px-3 fw-light">about us</h1>
-        <h5 class="px-3 fw-light">
-          <b>ENHANCE provides high-quality cell culture media, cell separation
-          technologies, instruments, accessory products, and educational
-          resources to scientists around the world working on stem cell,
-          immunology, cancer, regenerative medicine, and cellular therapy
-          research. At STEMCELL, we are dedicated to improving lives through
-          advanced knowledge and scientific discovery, through our commitment to
-          fostering diversity and inclusion in STEM and the life sciences
-          industry, and through our investments in sustainability, community,
-          and social responsibility. Rooted in scientific expertise and rigor,
-          we are a company of Scientists Helping Scientists, and we care deeply
-          about making the world a better place.</b> 
-        </h5>
-      </div>
-      <div class="row  mt-5 ">
-        <div class="col-md-6 text-center pt-md-5 mt-md-5 fw-lighter">
-          <b>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Atque
-          facilis quibusdam totam quia, nulla error, quis tenetur officia id
-          similique ea qui ullam ad quidem, consequatur nihil fugit odio laborum
-          veniam perferendis omnisscdfvgbfdsdfvgb doloremque! Odit fugit dolorem voluptates
-          laboriosam nam quaerat impedit voluptate adipisci placeat. Illo vitae
-          corporis unde illum.</b> 
-        </div>
-        <div class="col-md-6"> <img src="../pics/dna2.png" class="img-fluid" alt=""></div>
-      </div>
+    <main id="biddingMain" class="container mt-5 mb-5  d-flex align-items-center flex-column">
+        <div id="specialDouner"></div>
+        <div id="biddingTimer"></div>
+        <div id="theBidders"></div>
+        <input type="number" id="amoutOfRisingBidding">
+        <button id="sendBidd" class="btn-outline-dark btn-floating mx-1 rounded-pill">bidd up</button>
     </main>
     <footer
       class="footer_for_devices_web text-lg-start bg-primary d-flex justify-content-around text-light p-3 container-fluid fixed-bottom"
@@ -104,7 +79,7 @@
         ><i class="bi bi-linkedin"></i
       ></a>
     </footer>
-    <script src="about.js"></script>
+    <script src="bidding.js"></script>
     <script
       src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
       integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
@@ -120,5 +95,5 @@
       integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
       crossorigin="anonymous"
     ></script>
-  </body>
+</body>
 </html>
