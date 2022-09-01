@@ -53,6 +53,7 @@
 //     .catch(err => console.error(err));
 // }
 // // dna2mRNA()
+פלחךלחךלח
 async function randomUsers() {
   try {
     return await fetch(
@@ -186,10 +187,10 @@ function actionOfPrintingUser() {
   first_main.style.display = `none`;
   second_main.style.display = `flex`;
   second_main.style.flexDirection='column'
-  // second_main.style.justifyContent = `center`;
-  // document.getElementById('staticBackdrop').style.display='none'
-  //   var modal = bootstrap.Modal.getInstance(document.getElementById('staticBackdrop'))
-  // modal.hide();
+  second_main.style.justifyContent = `center`;
+  document.getElementById('staticBackdrop').style.display='none'
+    var modal = bootstrap.Modal.getInstance(document.getElementById('staticBackdrop'))
+  modal.hide();
 }
 
 async function printingUserPage() {
